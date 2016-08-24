@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE8426381D6C262C0017BF37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8426371D6C262C0017BF37 /* main.m */; };
 		CE8426401D6C3FF50017BF37 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE84263F1D6C3FF50017BF37 /* Fraction.m */; };
+		CE8426431D6C44370017BF37 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8426421D6C44370017BF37 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		CE8426371D6C262C0017BF37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE84263E1D6C3FF50017BF37 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		CE84263F1D6C3FF50017BF37 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		CE8426411D6C44370017BF37 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		CE8426421D6C44370017BF37 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				CE8426371D6C262C0017BF37 /* main.m */,
 				CE84263E1D6C3FF50017BF37 /* Fraction.h */,
 				CE84263F1D6C3FF50017BF37 /* Fraction.m */,
+				CE8426411D6C44370017BF37 /* Calculator.h */,
+				CE8426421D6C44370017BF37 /* Calculator.m */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8426431D6C44370017BF37 /* Calculator.m in Sources */,
 				CE8426381D6C262C0017BF37 /* main.m in Sources */,
 				CE8426401D6C3FF50017BF37 /* Fraction.m in Sources */,
 			);

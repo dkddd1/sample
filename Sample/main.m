@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
+#import "Calculator.h"
 
 /*
 @interface  Engine : NSObject
@@ -35,10 +36,6 @@
 @end
 */
 
-
-
-
-
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -63,9 +60,14 @@ int main(int argc, const char * argv[]) {
               [myFraction numerator], [myFraction denominator]);
         [myFraction print];
         
+        Calculator *deskCalc = [[Calculator alloc] init];
         
-        
-        
+        [deskCalc setAccumlator:100.0];
+        [deskCalc add: 200.];
+        [deskCalc divide:15.0];
+        [deskCalc subtract:10.0];
+        [deskCalc multiply:5];
+        NSLog(@"The result is %g", [deskCalc accumulator]);
     }
     return 0;
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2602481D6E6DB80009B5EB /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2602471D6E6DB80009B5EB /* Engine.m */; };
+		CE26024B1D6E71680009B5EB /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = CE26024A1D6E71680009B5EB /* Tire.m */; };
+		CE26024E1D6E722E0009B5EB /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CE26024D1D6E722E0009B5EB /* Car.m */; };
 		CE8426381D6C262C0017BF37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8426371D6C262C0017BF37 /* main.m */; };
 		CE8426401D6C3FF50017BF37 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = CE84263F1D6C3FF50017BF37 /* Fraction.m */; };
 		CE8426431D6C44370017BF37 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8426421D6C44370017BF37 /* Calculator.m */; };
@@ -25,6 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE2602461D6E6DB80009B5EB /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		CE2602471D6E6DB80009B5EB /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		CE2602491D6E71680009B5EB /* Tire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		CE26024A1D6E71680009B5EB /* Tire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		CE26024C1D6E722E0009B5EB /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		CE26024D1D6E722E0009B5EB /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		CE8426341D6C262C0017BF37 /* Sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sample; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8426371D6C262C0017BF37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE84263E1D6C3FF50017BF37 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
@@ -64,10 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				CE8426371D6C262C0017BF37 /* main.m */,
+				CE2602461D6E6DB80009B5EB /* Engine.h */,
+				CE2602471D6E6DB80009B5EB /* Engine.m */,
 				CE84263E1D6C3FF50017BF37 /* Fraction.h */,
 				CE84263F1D6C3FF50017BF37 /* Fraction.m */,
 				CE8426411D6C44370017BF37 /* Calculator.h */,
 				CE8426421D6C44370017BF37 /* Calculator.m */,
+				CE2602491D6E71680009B5EB /* Tire.h */,
+				CE26024A1D6E71680009B5EB /* Tire.m */,
+				CE26024C1D6E722E0009B5EB /* Car.h */,
+				CE26024D1D6E722E0009B5EB /* Car.m */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -128,7 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE26024E1D6E722E0009B5EB /* Car.m in Sources */,
+				CE26024B1D6E71680009B5EB /* Tire.m in Sources */,
 				CE8426431D6C44370017BF37 /* Calculator.m in Sources */,
+				CE2602481D6E6DB80009B5EB /* Engine.m in Sources */,
 				CE8426381D6C262C0017BF37 /* main.m in Sources */,
 				CE8426401D6C3FF50017BF37 /* Fraction.m in Sources */,
 			);
@@ -251,6 +269,7 @@
 				CE84263D1D6C262C0017BF37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
